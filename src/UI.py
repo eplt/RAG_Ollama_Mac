@@ -1,10 +1,12 @@
 from rag_query import query_rag
 import streamlit as st
+from __version__ import __version__
 
     
 st.set_page_config(page_title="FactBot: No Hallucinations, Just Facts")
 with st.sidebar:
     st.title('FactBot')
+    st.caption(f"v{__version__}")
 
 # Function for generating LLM response
 def generate_response(input):
