@@ -1,5 +1,9 @@
 # 🧠 Local RAG Chatbot with Ollama on Mac
 
+[![Version](https://img.shields.io/badge/version-0.1.0-blue.svg)](https://github.com/eplt/RAG_Ollama_Mac/releases/tag/v0.1.0)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Python 3.7+](https://img.shields.io/badge/python-3.7+-blue.svg)](https://www.python.org/downloads/)
+
 > Lightweight, private, and customizable retrieval-augmented chatbot running entirely on your Mac.
 
 Based on the excellent work by [pruthvirajcyn](https://github.com/pruthvirajcyn/RAG_Ollama_Deepseek_Streamlit) and his [Medium article](https://medium.com/@pruthvirajc/implementing-a-local-rag-chat-bot-with-ollama-streamlit-and-deepseek-r1-a-practical-guide-46b1903f011f).
@@ -123,6 +127,22 @@ Ask questions and the chatbot will respond using relevant context retrieved from
 
 ---
 
+## 📦 Release Information
+
+**Current Version: v0.1.0** (2025-12-23)
+
+This is the initial public release of RAG_Ollama_Mac. See [CHANGELOG.md](CHANGELOG.md) for detailed release notes.
+
+### What's Included
+- ✅ Complete RAG chatbot implementation
+- ✅ PDF document processing and embedding
+- ✅ Streamlit chat interface
+- ✅ ChromaDB vector storage
+- ✅ Local Ollama model integration
+- ✅ Full documentation and setup guide
+
+---
+
 ## 📌 Notes & Future Plans
 
 - Planning to support non-PDF formats (Markdown, .txt, maybe HTML).
@@ -136,3 +156,21 @@ Ask questions and the chatbot will respond using relevant context retrieved from
 Local RAG is now more accessible than ever. With powerful small models and tools like Ollama, anyone can build a private, intelligent assistant — no cloud needed.
 
 If you found this useful or have ideas to improve it, feel free to open a PR or drop a star ⭐️
+
+---
+
+## 🤝 Contributing
+
+Contributions are welcome! Please read [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines on how to contribute to this project.
+
+---
+
+## 📄 License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+---
+
+## 🙏 Acknowledgments
+
+Based on the excellent work by [pruthvirajcyn](https://github.com/pruthvirajcyn/RAG_Ollama_Deepseek_Streamlit) and his [Medium article](https://medium.com/@pruthvirajc/implementing-a-local-rag-chat-bot-with-ollama-streamlit-and-deepseek-r1-a-practical-guide-46b1903f011f).
