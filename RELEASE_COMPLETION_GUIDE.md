@@ -25,7 +25,7 @@ This guide outlines the steps needed to complete the v0.1.0 release of RAG_Ollam
 
 ### 1. Create and Push the Git Tag
 
-The tag should be created on the main branch (commit `c29738b` or later) that contains all the release preparation work from PR #1.
+The tag should be created on the main branch that contains all the release preparation work from PR #1.
 
 ```bash
 # Ensure you're on the main branch and up to date

@@ -46,6 +46,8 @@ if [ "$CURRENT_BRANCH" != "main" ]; then
 fi
 
 # Create annotated tag
+# Note: For future releases, update the VERSION variable at the top of this script
+# and modify the tag message below to reflect the new version's features
 echo "✨ Creating annotated tag ${TAG}..."
 git tag -a "$TAG" -m "Release version ${VERSION}
 

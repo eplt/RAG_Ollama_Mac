@@ -69,7 +69,7 @@ check_file "src/requirements.txt" "Python dependencies"
 echo ""
 echo "📝 Checking version consistency..."
 if [ -f "src/__version__.py" ]; then
-    VERSION_IN_FILE=$(grep "__version__" src/__version__.py | grep -oP '"\K[^"]+')
+    VERSION_IN_FILE=$(grep "__version__" src/__version__.py | sed -n 's/.*__version__ *= *[\"'"'"']\([^\"'"'"']*\)[\"'"'"'].*/\1/p')
     if [ "$VERSION_IN_FILE" = "$VERSION" ]; then
         echo "✅ Version in src/__version__.py matches: $VERSION_IN_FILE"
     else
@@ -127,7 +127,7 @@ else
 fi
 
 echo ""
-echo "=" | tr '=' '=' | head -c 60
+printf '=%.0s' {1..60}
 echo ""
 
 if [ $ERRORS -eq 0 ]; then
